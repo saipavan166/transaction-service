@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Toucan Payments — Transaction Service
 
 ## 1. Understanding of the problem
@@ -116,6 +116,3 @@ I used an AI coding assistant to help interpret the requirements, propose a Spri
 I reviewed the generated code against the challenge requirements and kept the design intentionally small: controller, service, repository, DTOs, entity/enums and centralized exception handling. I also checked the business rules manually, particularly duplicate IDs, validation, missing transactions and status transitions. The assigned candidate variant was not present in the provided files, so the README explicitly identifies the assumptions that must be checked against the invitation email before submission.
 
 The final implementation should be verified locally with `mvnw.cmd clean test` on Windows or `./mvnw clean test` on Linux/macOS before submission.
-=======
-# transaction-service
->>>>>>> 40cd508184160ad62e3a351b297163601e7ee3b9
